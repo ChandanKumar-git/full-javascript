@@ -41,3 +41,33 @@ console.log(typeof myFunction) //type is function Object but show only function
 
 //Link for guide: https://262.ecma-international.org/5.1/
 
+/****************Stack and heap memory**********/
+
+//Stack: stack are used in all types of primitive datatype, wheneever use stack memory we got copy of decleard variable.
+
+//Heap: heap are used in all non-primitivw datatypes , whenever we use heaap we got original reference of decleared variable.
+
+let myId="chandankumardubey"
+
+let anothername=myId
+
+anothername="Hiteshchaudhry"
+
+// console.log(myId);
+// console.log(anothername);
+//   only copy dould be changed original is as it is. it will store in stack
+
+//obj
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "chandan@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//these are useing heap memory that's why original got changed.
