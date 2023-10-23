@@ -28,15 +28,15 @@ console.log(instructor);
 
 //these are some JSON API formate
 
-{
-    "name": "chandan",
-    "coursename":"js in hindi",
-    "price":"free"
+// {
+//     "name": "chandan",
+//     "coursename":"js in hindi",
+//     "price":"free"
 
-}
+// }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]

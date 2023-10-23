@@ -76,21 +76,24 @@ const user = [{
 /*vary important concept*/
 // when we want to loop over key or value in object.
 
-console.log(regularUser);
 
-console.log(Object.keys(tinderUser));
+//console.log(Object.keys(tinderUser));
+//console.log(regularUser);
 
 //Returns the names of the enumerable string properties and methods of an object.
 
 
-console.log(Object.values(tinderUser));
+//console.log(Object.values(tinderUser));
 
 // Returns an array of values  of the enumerable properties of an object
 
-console.log(Object.entries(tinderUser));
+//console.log(Object.entries(tinderUser));
 
 //Returns an array of key/values of the enumerable properties of an object 
 // it return every key pair value inside array and all the array is store in single array.
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // it check the value we pass if exist in obj then return true otherwise false.
+
+
+
