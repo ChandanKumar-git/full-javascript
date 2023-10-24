@@ -68,7 +68,52 @@ function loginUserMessage(username) {
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
 
+// function calculateCartPrice (...num1) {
+//     return num1
+// }
 
+// console.log(calculateCartPrice(200, 400, 500))
 
+//output=[ 200, 400, 500 ] this return because of rest operator (...parameter) in function we use rest operator it meanse bind all the rest of element in a single array and return this array.
+
+function calculateCartPrice (val1, val2,...num1) {
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500,2000));
+
+//output =[ 500, 2000 ] because val1 taakes first element and val2 second ele and rest of the in array.
+
+/**##Pass object in function ####*/
+
+const user  ={
+    username: "chandan",
+    price: 99
+}
+
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user); in this first we define object and then pass as argumenet.
+
+// handleObject ({
+//     username: "sammy",
+//     price: 599
+// }) 
+
+//but in this case we directly passs an object at run time.
+
+/**Pass arrays in function */
+
+const myNewArray = [100, 200, 300, 400];
+
+function returnSecondValue(getArray) {
+    return getArray[1];
+}
+
+// console.log(returnSecondValue(myNewArray));
+
+console.log(returnSecondValue([200, 400, 500]));
