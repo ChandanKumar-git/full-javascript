@@ -13,7 +13,7 @@ const myArray2 = new Array(1,2,3,4)
 // myArray.push(7);
 // myArray.pop();//pop method remove the element from end!
 
-myArray.unshift(9);// it push the element at the end of the array 
+myArray.unshift(9);// it push the element at the start of the array 
 
 myArray.shift(); //it remove the element from start of aray
 
